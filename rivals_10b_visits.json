@@ -1,0 +1,23 @@
+{
+  "replacement_rules": [
+    {
+      "name": "10b visits body",
+      "replace_ids": [
+        12613284249
+      ],
+      "mode": "cdn",
+      "enabled": true,
+      "cdn_url": "https://github.com/TU_USUARIO/TU_REPO/raw/refs/heads/main/10b_body_A_sin_giro.obj"
+    },
+    {
+      "name": "REMOVE body parts",
+      "replace_ids": [
+        12613284036,
+        12613283569,
+        14652718299
+      ],
+      "mode": "id",
+      "enabled": true
+    }
+  ]
+}
